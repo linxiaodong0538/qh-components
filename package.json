@@ -12,7 +12,8 @@
   "dependencies": {
     "element-plus": "^2.1.8",
     "qh-components": "^1.0.0",
-    "vue": "^3.2.26"
+    "vue": "^3.2.26",
+    "vue-router": "^4.1.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",

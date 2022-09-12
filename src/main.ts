@@ -2,7 +2,7 @@
  * @Author: linx linx@skeqi.com
  * @Date: 2022-09-06 08:14:22
  * @LastEditors: @zhuyadexiatian 734127061@qq.com
- * @LastEditTime: 2022-09-11 17:26:14
+ * @LastEditTime: 2022-09-11 19:38:39
  * @FilePath: \smart_cover_mobile_managere:\学习\qh-components\src\main.ts
  * @Description:
  *
@@ -12,6 +12,7 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import locale from 'element-plus/lib/locale/lang/zh-cn'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+import router from './router'
 
 import App from './App.vue'
 
@@ -38,4 +39,4 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 
 // app.component('qh-form', Form)
 
-app.use(ElementPlus, { locale }).use(qhComponents).mount('#app')
+app.use(ElementPlus, { locale }).use(router).use(qhComponents).mount('#app')
